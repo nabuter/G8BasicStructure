@@ -1,0 +1,13 @@
+# this file contains a list of all modules needed for your application
+# on a specific machine
+# note that the comm-objects directories should not be listed here
+# example:
+# ProjectG8/some-module
+
+Generic/gui-stick HEAD
+SimCourse2015/gui-stick HEAD
+ProjectG8/dusime 
+ProjectG8/controller 
+ProjectG8/dynamics 
+ProjectG8/feedback 
+ProjectG8/F16HUD 

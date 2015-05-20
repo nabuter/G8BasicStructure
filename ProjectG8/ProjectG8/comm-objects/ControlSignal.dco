@@ -1,0 +1,5 @@
+(Type float)
+
+(Stream ControlSignal
+	(float uxcontrol)
+)
