@@ -1,3 +1,73 @@
-Dueca timing log, run start at Thu May 21 02:28:23 2015
+Dueca timing log, run start at Thu May 21 17:50:54 2015
 
                                   activity  strt tim  min st  avg st  max st  min cp  avg cp  max cp warn crit user
+  id(0,19) takes in joystick output and fe     57620     888   30595  101515    1014   31744  102027  345 1477    0
+  id(0,22)                 drawing F16 HUD     72240    1412   50419  160879   11411   57465  160883   53 1947    0
+  id(0,20) quadcopter dynamics, takes in c     75520    1382   47077  148234    1410   47884  150177   94 1855    0
+  id(0,18)                joystick reading     82760     207   16731  106768     264   17134  107116  708  684    0
+  id(0,21)                        feedback     90000    1628   46693  152655    1654   46736  152716  107 1841    0
+  id(0,19) takes in joystick output and fe     97620     856   29922  122837     873   31098  125115  350 1451    0
+  id(0,22)                 drawing F16 HUD    112240    2171   49661  151121   12171   56550  151121   54 1946    0
+  id(0,20) quadcopter dynamics, takes in c    115520    1977   45104  117168    2170   45920  118588  102 1846    0
+  id(0,18)                joystick reading    122760     161   16352   56712     234   16745   56758  698  692    0
+  id(0,21)                        feedback    130000    2134   46570  118500    2166   46617  118546   93 1857    0
+  id(0,19) takes in joystick output and fe    137620     493   30357  140150     510   31530  142888  348 1473    0
+  id(0,22)                 drawing F16 HUD    152240     726   51117  181648   10726   58067  181649   37 1963    0
+  id(0,20) quadcopter dynamics, takes in c    155520     713   46868  174702     725   47670  175383   69 1898    0
+  id(0,18)                joystick reading    162760     217   16997  127300     453   17389  127329  668  730    0
+  id(0,21)                        feedback    170000     720   48346  178747     723   48389  178799   65 1906    0
+  id(0,19) takes in joystick output and fe    177620     668   30416   99053     683   31560  100382  338 1493    0
+  id(0,22)                 drawing F16 HUD    192240    1009   50976  136436   11008   58018  140790   38 1962    0
+  id(0,20) quadcopter dynamics, takes in c    195520    1876   46810  130793    1887   47606  131682   69 1896    0
+  id(0,18)                joystick reading    202760     359   16698   67020     364   17051   67645  692  702    0
+  id(0,21)                        feedback    210000    1719   47308  131632    1748   47357  131675   77 1880    0
+  id(0,19) takes in joystick output and fe    217620    1353   30531  102781    1486   31780  103321  324 1519    0
+  id(0,22)                 drawing F16 HUD    232240    1752   51110  135120   11752   57962  135120   38 1962    0
+  id(0,20) quadcopter dynamics, takes in c    235520    1652   46718  131085    1751   47560  132227   73 1893    0
+  id(0,18)                joystick reading    242760     149   16742   61457     156   17114   69510  672  719    0
+  id(0,21)                        feedback    250000    2157   47473  132157    2186   47521  132197   64 1904    0
+  id(0,19) takes in joystick output and fe    257620     625   30253  119203    1135   31448  121474  347 1474    0
+  id(0,22)                 drawing F16 HUD    272240    2192   50483  159090   12192   57468  159091   35 1965    0
+  id(0,20) quadcopter dynamics, takes in c    275520    2092   46228  124663    2190   47037  125491   59 1906    0
+  id(0,18)                joystick reading    282760     377   16659   93588     411   17039   94147  696  704    0
+  id(0,21)                        feedback    290000    1286   46730  125416    1289   46773  125452   71 1888    0
+  id(0,19) takes in joystick output and fe    297620     839   29995   96058     902   31221  103206  356 1458    0
+  id(0,22)                 drawing F16 HUD    312240    1292   50246  200464   11292   57194  200474   51 1949    0
+  id(0,20) quadcopter dynamics, takes in c    315520    1279   46397  187700    1291   47216  187847   89 1865    0
+  id(0,18)                joystick reading    322760     164   17020  133097     333   17440  134720  687  722    0
+  id(0,21)                        feedback    330000    2823   47321  198113    2856   47369  198157   74 1892    0
+  id(0,19) takes in joystick output and fe    337620     844   30152  157489    1360   31257  159604  354 1467    0
+  id(0,22)                 drawing F16 HUD    352240    1267   49679  127336   11267   56781  127337   41 1959    0
+  id(0,20) quadcopter dynamics, takes in c    355520    1254   45505  115332    1266   46296  116829   82 1879    0
+  id(0,18)                joystick reading    362760     319   16326   82293     400   16713   82324  703  684    0
+  id(0,21)                        feedback    370000    1261   45209  112862    1264   45253  112912  100 1849    0
+  id(0,19) takes in joystick output and fe    377620     745   29185   92367     811   30378   95500  367 1437    0
+  id(0,22)                 drawing F16 HUD    392240     912   50134  226031   10911   56940  226032   48 1952    0
+  id(0,20) quadcopter dynamics, takes in c    395520     882   45559  213260     910   46419  214827   79 1879    0
+  id(0,18)                joystick reading    402760     208   17045  165080     244   17475  165446  707  692    0
+  id(0,21)                        feedback    410000    1113   47207  224228    1140   47252  224272   70 1895    0
+  id(0,19) takes in joystick output and fe    417620     942   30060  181454    1005   31273  183381  348 1485    0
+  id(0,22)                 drawing F16 HUD    432240    2403   49665  139882   12403   56604  146572   27 1973    0
+  id(0,20) quadcopter dynamics, takes in c    435520    2333   45457  136741    2402   46300  136830   77 1889    0
+  id(0,18)                joystick reading    442760       9   14314   80044       9   14654   80325  604  595    0
+  id(0,19) takes in joystick output and fe    457620       9   15128   89848       9   15737   91989  170  728    0
+  id(0,18)                joystick reading    482760       3     666    8032       4     795    8121    0    0    0
+  id(0,19) takes in joystick output and fe    497620       4     794   10531       4     796   10532    1    0    0
+  id(0,18)                joystick reading    522760      -1     638   10440      -1     761   10531    1    0    0
+  id(0,19) takes in joystick output and fe    537620      -1     784    9223      -1     787    9231    0    0    0
+  id(0,18)                joystick reading    562760       2     677   23159       2     802   23302    1    1    0
+  id(0,19) takes in joystick output and fe    577620       2     793   23341       2     795   23342    1    1    0
+  id(0,18)                joystick reading    602760       0     646   12313      11     768   12499    1    0    0
+  id(0,19) takes in joystick output and fe    617620      11     769   12522      11     772   12523    1    0    0
+  id(0,18)                joystick reading    642760       7     638    7319       7     765    7810    0    0    0
+  id(0,19) takes in joystick output and fe    657620       0     770    7811       0     772    7812    0    0    0
+  id(0,18)                joystick reading    682760       0     603    7583       0     724    7619    0    0    0
+  id(0,19) takes in joystick output and fe    697620       3     750    8531       3     753    8531    0    0    0
+  id(0,18)                joystick reading    722760       3     619    8079       3     737    8530    0    0    0
+  id(0,19) takes in joystick output and fe    737620      13     694    6816      13     696    6817    0    0    0
+  id(0,18)                joystick reading    762760       0     570    7022       0     686    7502    0    0    0
+  id(0,19) takes in joystick output and fe    777620       0     714    7503       2     716    7504    0    0    0
+  id(0,18)                joystick reading    802760       2     611    6920      14     735    7429    0    0    0
+  id(0,19) takes in joystick output and fe    817620      19     733    7530      19     735    7530    0    0    0
+  id(0,18)                joystick reading    842760       2     623    7647       2     742    7761    0    0    0
+  id(0,19) takes in joystick output and fe    857620       2     750    7762       2     752    7763    0    0    0

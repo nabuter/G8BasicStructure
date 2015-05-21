@@ -1,7 +1,7 @@
 /* ------------------------------------------------------------------ */
 /*      item            : SecondarySwitches.hxx
         made by         : tux
-        date            : Wed May 20 23:54:05 2015
+        date            : Thu May 21 15:21:15 2015
         category        : header file
         description     : DUECA event/stream data object
         notes           : 
