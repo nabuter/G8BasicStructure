@@ -1,7 +1,7 @@
 /* ------------------------------------------------------------------ */
 /*      item            : PrimaryControls.cxx
         made by         : tux
-        date            : Wed May 20 23:54:05 2015
+        date            : Thu May 21 02:27:50 2015
         category        : body file
         description     : DUECA event/stream data object
         notes           : 
@@ -40,47 +40,6 @@ PrimaryControls::PrimaryControls() :
   test(0)
 {
   // empty
-}
-
-PrimaryControls::PrimaryControls(const float& ux,
-              const float& uy,
-              const float& uz,
-              const float& uc,
-              const float& Sx,
-              const float& Sy,
-              const float& Sz,
-              const float& Sc,
-              const float& dSx,
-              const float& dSy,
-              const float& dSz,
-              const float& dSc,
-              const float& Mx,
-              const float& My,
-              const float& Mz,
-              const float& Mc,
-              const float& fbrake_left,
-              const float& fbrake_right,
-              const int& test) :
-  ux(ux),
-  uy(uy),
-  uz(uz),
-  uc(uc),
-  Sx(Sx),
-  Sy(Sy),
-  Sz(Sz),
-  Sc(Sc),
-  dSx(dSx),
-  dSy(dSy),
-  dSz(dSz),
-  dSc(dSc),
-  Mx(Mx),
-  My(My),
-  Mz(Mz),
-  Mc(Mc),
-  fbrake_left(fbrake_left),
-  fbrake_right(fbrake_right),
-  test(test)
-{
 }
 
 PrimaryControls::PrimaryControls(const PrimaryControls& o) :
@@ -133,21 +92,6 @@ PrimaryControls::~PrimaryControls()
 {
 }
 
-
-void* PrimaryControls::operator new(size_t size)
-{
-  assert(size == sizeof(PrimaryControls));
-  static Arena* my_arena = arena_pool.findArena
-    (sizeof(PrimaryControls));
-  return my_arena->alloc(size);
-}
-
-void PrimaryControls::operator delete(void* v)
-{
-  static Arena* my_arena = arena_pool.findArena
-    (sizeof(PrimaryControls));
-  my_arena->free(v);
-}
 
 typedef uint8_t MemberIndex;
 static const MemberIndex idxend = 0xff;

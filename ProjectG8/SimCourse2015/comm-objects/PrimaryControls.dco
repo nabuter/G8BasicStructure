@@ -1,7 +1,7 @@
 (Type float)
 (Type int)
 
-(EventAndStream PrimaryControls
+(Stream PrimaryControls
   (float ux (Default 0.0f))
   (float uy (Default 0.0f))
   (float uz (Default 0.0f))

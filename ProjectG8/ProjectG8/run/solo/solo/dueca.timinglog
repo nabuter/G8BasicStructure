@@ -1,20 +1,3 @@
-Dueca timing log, run start at Thu May 21 00:52:44 2015
+Dueca timing log, run start at Thu May 21 02:28:23 2015
 
                                   activity  strt tim  min st  avg st  max st  min cp  avg cp  max cp warn crit user
-  id(0,21)                        feedback     64640    2148  236134  651758    2152  236231  651932    8 1989    0
-  id(0,22)                 drawing F16 HUD     66020    2159  281760  712201   12158  285712  712202    3 1997    0
-  id(0,20) quadcopter dynamics, takes in c     73100    2136  239533  621059    2155  240428  630496    7 1989    0
-  id(0,18) generating stick inputs from GU     78740     653   77142  321803     658   77148  321812  146 1748    0
-  id(0,19) takes in joystick output and fe     78720    1880  134835  371128    1929  136776  371401   33 1951    0
-  id(0,21)                        feedback    104640    8331  280901 1008839    8334  281006 1009058    7 1991    0
-  id(0,22)                 drawing F16 HUD    106020    8347  335841 1177013   18346  339541 1177014    2 1998    0
-  id(0,20) quadcopter dynamics, takes in c    113100    7882  278269  970690    7900  279163  971015    7 1991    0
-  id(0,18) generating stick inputs from GU    118740     748  102604  496998     753  102612  497010  109 1812    0
-  id(0,19) takes in joystick output and fe    118720    1045  183960  739716    1072  185592  740707   17 1975    0
-  id(0,21)                        feedback    144640    7894  238945  572032    7897  239041  572146    4 1995    0
-  id(0,22)                 drawing F16 HUD    146020    4326  271179  648831   14326  275243  648833    2 1998    0
-  id(0,20) quadcopter dynamics, takes in c    153100    4150  226808  568599    4168  227720  568682    7 1991    0
-  id(0,18) generating stick inputs from GU    158740     931   73739  256963     937   73746  256975  162 1729    0
-  id(0,19) takes in joystick output and fe    158720    1683  130807  334417    1721  132539  344231   28 1962    0
-  id(0,21)                        feedback    184640    4161  164434  588471    4164  164518  588569   16 1975    0
-  id(0,22)                 drawing F16 HUD    186020    6588  184947  639464   16587  189717  639465    8 1992    0

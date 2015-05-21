@@ -1,9 +1,9 @@
 /* ------------------------------------------------------------------ */
 /*      item            : PrimaryControls.hxx
         made by         : tux
-        date            : Wed May 20 23:54:05 2015
+        date            : Thu May 21 02:27:50 2015
         category        : header file
-        description     : DUECA event/stream data object
+        description     : DUECA stream data object
         notes           : 
         language        : C++                     */
 
@@ -23,7 +23,7 @@ USING_DUECA_NS;
 #pragma pack(4)
 /** an automatically generated class.
     This class can be used for the transport of data in
-    event/stream channels */
+    stream channels */
 class PrimaryControls
 {
 public:
@@ -92,27 +92,6 @@ public:
       across the dueca nodes. */
   static const uint32_t magic_check_number;
 
-  /** constructor (for use with event data). */
-  PrimaryControls(const float& ux,
-              const float& uy,
-              const float& uz,
-              const float& uc,
-              const float& Sx,
-              const float& Sy,
-              const float& Sz,
-              const float& Sc,
-              const float& dSx,
-              const float& dSy,
-              const float& dSz,
-              const float& dSc,
-              const float& Mx,
-              const float& My,
-              const float& Mz,
-              const float& Mc,
-              const float& fbrake_left,
-              const float& fbrake_right,
-              const int& test);
-
   /** empty constructor. */
   PrimaryControls();
 
@@ -124,24 +103,6 @@ public:
 
   /** destructor. */
   ~PrimaryControls();
-
-  /** new operator "new", which places objects not on a
-      heap, but in one of the memory arenas. This may prevent
-      problems with asymmetric allocation */
-  static void* operator new(size_t size);
-
-  /** new operator "delete", to go with the new version
-      of operator new. */
-  static void operator delete(void* p);
-
-  /** placement "new", needed for stl. */
-  inline static void* operator new(size_t size, PrimaryControls  *& o)
-  { return reinterpret_cast<void*>(o); }
-
-  /** placement "new", needed for other versions of the stl.*/
-  inline static void* operator new(size_t size, void*& o)
-  { return o; }
-
 
   /** packs the PrimaryControls into amorphous storage. */
   void packData(AmorphStore& s) const;
