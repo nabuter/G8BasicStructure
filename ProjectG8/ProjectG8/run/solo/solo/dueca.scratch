@@ -401,3 +401,5 @@
 
 (pass-control 2) ; *Added by SchemeInterpret*
 ;;end_of_input::
+(quit) ; *Added by SchemeInterpret*
+;;end_of_input::
